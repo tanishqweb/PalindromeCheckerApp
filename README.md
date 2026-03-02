@@ -1,8 +1,8 @@
 # PalindromeCheckerApp
 
 // Procedure
-1. Compile → javac UseCase5PalindromeCheckerApp.java  
-2. Run → java UseCase5PalindromeCheckerApp  
+1. Compile → javac PalindromeCheckerApp.java  
+2. Run → java PalindromeCheckerApp
 3. Enter a word or phrase  
 4. Program pushes characters into a stack, pops them to reverse, and checks palindrome  
 
