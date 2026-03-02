@@ -1,26 +1,29 @@
 # PalindromeCheckerApp
 
-//Procedure
-1. Compile the program using → javac UseCase1PalindromeCheckerApp.java
-2. Run the program using → java UseCase1PalindromeCheckerApp
-3. The console will display the welcome message and app details
+// Procedure
+1. Compile → javac UseCase5PalindromeCheckerApp.java  
+2. Run → java UseCase5PalindromeCheckerApp  
+3. Enter a word or phrase  
+4. Program pushes characters into a stack, pops them to reverse, and checks palindrome  
 
-//Flow of Project
+// Flow of Project  
 → Program starts  
-→ JVM invokes main() method  
-→ App name and version displayed  
-→ Welcome message shown  
-→ Application initialized successfully
+→ User inputs string  
+→ Spaces removed and converted to lowercase  
+→ Each character pushed into Stack  
+→ Characters popped in reverse order  
+→ Original and reversed compared  
+→ Result displayed  
 
-//Objective 
-To display a welcome message and application details when the Palindrome Checker App starts.  
-This helps introduce the user to the app before any palindrome checking begins.
+// Objective
+To demonstrate palindrome checking using Stack data structure (LIFO order) for reversing the string.  
 
-//Topics Covered
-- Class and main() method
-- Static keyword usage
-- Console output using System.out.println()
-- Basic application startup flow
+// Topics Covered
+- Stack operations (push, pop)  
+- String reversal using Stack  
+- equals() comparison  
+- Scanner input handling  
+- Conditional logic  
 
-//UseCase
-UC1: Application Entry & Welcome Message
+// UseCase
+UC5: Stack-Based Palindrome Checker
