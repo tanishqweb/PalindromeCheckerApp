@@ -1,26 +1,29 @@
 # PalindromeCheckerApp
 
-//Procedure
-1. Compile the program using → javac UseCase1PalindromeCheckerApp.java
-2. Run the program using → java UseCase1PalindromeCheckerApp
-3. The console will display the welcome message and app details
+// Procedure  
+1. Compile → javac PalindromeCheckerApp.java  
+2. Run → java PalindromeCheckerApp  
+3. Enter a word or phrase  
+4. Program uses a queue to check if it reads the same from front and rear  
 
-//Flow of Project
+// Flow of Project 
 → Program starts  
-→ JVM invokes main() method  
-→ App name and version displayed  
-→ Welcome message shown  
-→ Application initialized successfully
+→ User enters input string  
+→ Clean input (remove spaces, lowercase)  
+→ Characters inserted into a queue  
+→ Compare front and rear elements  
+→ If all match → palindrome  
+→ Else → not palindrome  
 
-//Objective 
-To display a welcome message and application details when the Palindrome Checker App starts.  
-This helps introduce the user to the app before any palindrome checking begins.
+// Objective
+To validate palindrome logic using a Queue (FIFO structure) demonstrating opposite order comparison logic.  
 
-//Topics Covered
-- Class and main() method
-- Static keyword usage
-- Console output using System.out.println()
-- Basic application startup flow
+// Topics Covered
+- Queue operations (add, remove, peek)  
+- FIFO behavior  
+- String normalization  
+- Comparison logic  
+- Loop and conditional statements  
 
-//UseCase
-UC1: Application Entry & Welcome Message
+// UseCase
+UC6: Queue-Based Palindrome Checker
