@@ -4,7 +4,7 @@ public class PalindromeCheckerApp {
         System.out.println("=====================================");
         System.out.println("      Palindrome Checker App");
         System.out.println("=====================================");
-        System.out.println("UC3: User Input & Dynamic Palindrome Check");
+        System.out.println("UC2: User Input & Dynamic Palindrome Check");
         System.out.println("-------------------------------------");
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a word or phrase: ");
