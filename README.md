@@ -1,8 +1,8 @@
 # PalindromeCheckerApp
 
 // Procedure
-1. Compile → javac UseCase4PalindromeCheckerApp.java  
-2. Run → java UseCase4PalindromeCheckerApp  
+1. Compile → javac PalindromeCheckerApp.java  
+2. Run → java PalindromeCheckerApp 
 3. Enter a word or phrase  
 4. Program converts it to a char array and checks characters from both ends  
 
