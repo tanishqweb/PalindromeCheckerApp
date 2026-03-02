@@ -1,8 +1,8 @@
 # PalindromeCheckerApp
 
 //Procedure
-1. Compile the program using → javac UseCase1PalindromeCheckerApp.java
-2. Run the program using → java UseCase1PalindromeCheckerApp
+1. Compile the program using → javac PalindromeCheckerApp.java
+2. Run the program using → java PalindromeCheckerApp
 3. The console will display the welcome message and app details
 
 //Flow of Project
