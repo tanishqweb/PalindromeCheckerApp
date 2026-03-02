@@ -1,8 +1,8 @@
 # PalindromeCheckerApp
 
 // Procedure  
-1. Compile → javac UseCase3PalindromeCheckerApp.java  
-2. Run → java UseCase3PalindromeCheckerApp  
+1. Compile → javac PalindromeCheckerApp.java  
+2. Run → java PalindromeCheckerApp  
 3. Enter a word or phrase when prompted  
 4. Program reverses it and checks if it’s a palindrome  
 
