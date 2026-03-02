@@ -1,26 +1,29 @@
 # PalindromeCheckerApp
 
-//Procedure
-1. Compile the program using → javac UseCase1PalindromeCheckerApp.java
-2. Run the program using → java UseCase1PalindromeCheckerApp
-3. The console will display the welcome message and app details
+// Procedure
+1. Compile → javac PalindromeCheckerApp.java  
+2. Run → java PalindromeCheckerApp  
+3. Enter a word or phrase  
+4. Program stores characters in a deque and compares front and rear elements  
 
-//Flow of Project
+// Flow of Project 
 → Program starts  
-→ JVM invokes main() method  
-→ App name and version displayed  
-→ Welcome message shown  
-→ Application initialized successfully
+→ User enters input string  
+→ Spaces removed and converted to lowercase  
+→ Each character added into deque  
+→ First and last characters compared in loop  
+→ If all match → palindrome  
+→ Else → not palindrome  
 
-//Objective 
-To display a welcome message and application details when the Palindrome Checker App starts.  
-This helps introduce the user to the app before any palindrome checking begins.
+// Objective
+To perform an optimized palindrome check using a Deque (Double Ended Queue) for efficient front–rear comparison without creating extra reversed structures.  
 
-//Topics Covered
-- Class and main() method
-- Static keyword usage
-- Console output using System.out.println()
-- Basic application startup flow
+// Topics Covered
+- Deque data structure (ArrayDeque)  
+- Front and rear element access  
+- While loop for comparison  
+- String cleaning and normalization  
+- Efficient palindrome logic  
 
-//UseCase
-UC1: Application Entry & Welcome Message
+// UseCase 
+UC7: Deque-Based Optimized Palindrome Checker
