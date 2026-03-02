@@ -1,26 +1,29 @@
 # PalindromeCheckerApp
 
-//Procedure
-1. Compile the program using → javac UseCase1PalindromeCheckerApp.java
-2. Run the program using → java UseCase1PalindromeCheckerApp
-3. The console will display the welcome message and app details
+// Procedure
+1. Compile → javac UseCase4PalindromeCheckerApp.java  
+2. Run → java UseCase4PalindromeCheckerApp  
+3. Enter a word or phrase  
+4. Program converts it to a char array and checks characters from both ends  
 
-//Flow of Project
+// Flow of Project
 → Program starts  
-→ JVM invokes main() method  
-→ App name and version displayed  
-→ Welcome message shown  
-→ Application initialized successfully
+→ User enters input string  
+→ String cleaned and converted to char[]  
+→ Two-pointer approach compares start and end  
+→ If mismatch found → not palindrome  
+→ Else → palindrome  
 
-//Objective 
-To display a welcome message and application details when the Palindrome Checker App starts.  
-This helps introduce the user to the app before any palindrome checking begins.
+// Objective 
+To perform palindrome validation using a character array and two-pointer approach for efficient comparison.  
 
-//Topics Covered
-- Class and main() method
-- Static keyword usage
-- Console output using System.out.println()
-- Basic application startup flow
+// Topics Covered 
+- char[] array usage  
+- Array indexing  
+- Two-pointer technique  
+- While loop  
+- String cleaning and comparison  
+- Conditional statements  
 
-//UseCase
-UC1: Application Entry & Welcome Message
+// UseCase
+UC4: Character Array Based Palindrome Check
