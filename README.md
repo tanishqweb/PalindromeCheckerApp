@@ -1,26 +1,27 @@
 # PalindromeCheckerApp
 
-//Procedure
-1. Compile the program using → javac UseCase1PalindromeCheckerApp.java
-2. Run the program using → java UseCase1PalindromeCheckerApp
-3. The console will display the welcome message and app details
+// Procedure  
+1. Compile → javac PalindromeCheckerApp.java  
+2. Run → java PalindromeCheckerApp  
+3. Enter a word or phrase  
+4. Program ignores spaces and case sensitivity while checking palindrome  
 
-//Flow of Project
+// Flow of Project 
 → Program starts  
-→ JVM invokes main() method  
-→ App name and version displayed  
-→ Welcome message shown  
-→ Application initialized successfully
+→ User enters a string  
+→ Input normalized (spaces removed, lowercase conversion)  
+→ String reversed using loop  
+→ Original and reversed strings compared  
+→ Palindrome result displayed  
 
-//Objective 
-To display a welcome message and application details when the Palindrome Checker App starts.  
-This helps introduce the user to the app before any palindrome checking begins.
+// objective
+To perform palindrome checking while ignoring both spaces and letter case, improving accuracy for phrases and sentences.  
 
-//Topics Covered
-- Class and main() method
-- Static keyword usage
-- Console output using System.out.println()
-- Basic application startup flow
+// Topics Covered
+- String preprocessing with replaceAll()  
+- Case-insensitive comparison  
+- String reversal using loop  
+- Conditional logic and output display  
 
-//UseCase
-UC1: Application Entry & Welcome Message
+// UseCase 
+UC10: Case-Insensitive & Space-Ignored Palindrome
