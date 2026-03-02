@@ -1,8 +1,8 @@
 # PalindromeCheckerApp
 
 // Procedure
-1. Compile the program using → javac UseCase2PalindromeCheckerApp.java  
-2. Run the program using → java UseCase2PalindromeCheckerApp  
+1. Compile the program using → javac PalindromeCheckerApp.java  
+2. Run the program using → java PalindromeCheckerApp  
 3. The program will check a hardcoded string and display whether it is a palindrome  
 
 // Flow of Project
