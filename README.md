@@ -1,26 +1,29 @@
 # PalindromeCheckerApp
 
-//Procedure
-1. Compile the program using → javac UseCase1PalindromeCheckerApp.java
-2. Run the program using → java UseCase1PalindromeCheckerApp
-3. The console will display the welcome message and app details
+// Procedure  
+1. Compile → javac PalindromeCheckerApp.java  
+2. Run → java PalindromeCheckerApp  
+3. Enter a word or phrase  
+4. Program checks palindrome recursively by comparing first and last characters  
 
-//Flow of Project
+// Flow of Project 
 → Program starts  
-→ JVM invokes main() method  
-→ App name and version displayed  
-→ Welcome message shown  
-→ Application initialized successfully
+→ User inputs a string  
+→ String cleaned (spaces removed, lowercase)  
+→ Recursive method called with start and end indexes  
+→ Base condition stops recursion when middle reached  
+→ Comparison result returned to main method  
+→ Final output displayed  
 
-//Objective 
-To display a welcome message and application details when the Palindrome Checker App starts.  
-This helps introduce the user to the app before any palindrome checking begins.
+// Objective
+To verify palindrome using recursion, comparing characters from both ends and reducing the problem size with each recursive call.  
 
-//Topics Covered
-- Class and main() method
-- Static keyword usage
-- Console output using System.out.println()
-- Basic application startup flow
+// Topics Covered
+- Recursion concept  
+- Base condition logic  
+- Call stack behavior  
+- String comparison  
+- Logical thinking and flow control  
 
-//UseCase
-UC1: Application Entry & Welcome Message
+// UseCase  
+UC9: Recursive Palindrome Checker
