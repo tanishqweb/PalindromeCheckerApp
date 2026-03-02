@@ -1,26 +1,30 @@
 # PalindromeCheckerApp
 
-//Procedure
-1. Compile the program using → javac UseCase1PalindromeCheckerApp.java
-2. Run the program using → java UseCase1PalindromeCheckerApp
-3. The console will display the welcome message and app details
+// Procedure 
+1. Compile → javac PalindromeCheckerApp.java  
+2. Run → java PalindromeCheckerApp  
+3. Enter a word or phrase  
+4. Program converts input into a linked list, reverses half, and checks for palindrome  
 
-//Flow of Project
+// Flow of Project 
 → Program starts  
-→ JVM invokes main() method  
-→ App name and version displayed  
-→ Welcome message shown  
-→ Application initialized successfully
+→ User inputs a string  
+→ String cleaned (spaces removed, lowercase)  
+→ Each character added into a singly linked list  
+→ Fast and slow pointers find middle of list  
+→ Second half of list reversed  
+→ Compare both halves node by node  
+→ Display palindrome result  
 
-//Objective 
-To display a welcome message and application details when the Palindrome Checker App starts.  
-This helps introduce the user to the app before any palindrome checking begins.
+// Objective
+To perform palindrome checking using a singly linked list by reversing the second half and comparing both halves efficiently.  
 
-//Topics Covered
-- Class and main() method
-- Static keyword usage
-- Console output using System.out.println()
-- Basic application startup flow
+// Topics Covered
+- Singly Linked List  
+- Node creation and traversal  
+- Fast and slow pointer technique  
+- In-place linked list reversal  
+- Logical comparison of linked list halves  
 
-//UseCase
-UC1: Application Entry & Welcome Message
+// UseCase
+UC8: Linked List Based Palindrome Checker
