@@ -1,32 +1,41 @@
 import java.util.Scanner;
 
+class PalindromeService {
+
+    public boolean checkPalindrome(String input) {
+
+        int start = 0;
+        int end = input.length() - 1;
+
+        while (start < end) {
+
+            if (input.charAt(start) != input.charAt(end)) {
+                return false;
+            }
+
+            start++;
+            end--;
+        }
+
+        return true;
+    }
+}
+
 public class PalindromeCheckerApp {
+
     public static void main(String[] args) {
-        System.out.println("=====================================");
-        System.out.println("      Palindrome Checker App");
-        System.out.println("=====================================");
-        System.out.println("UC10: Case-Insensitive & Space-Ignored Palindrome");
-        System.out.println("-------------------------------------");
 
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter a word or phrase: ");
-        String input = sc.nextLine();
+        Scanner scanner = new Scanner(System.in);
 
-        String cleaned = input.replaceAll("\\s+", "").toLowerCase();
+        System.out.print("Input : ");
+        String input = scanner.nextLine();
 
-        String reversed = "";
-        for (int i = cleaned.length() - 1; i >= 0; i--) {
-            reversed += cleaned.charAt(i);
-        }
+        PalindromeService service = new PalindromeService();
 
-        if (cleaned.equals(reversed)) {
-            System.out.println("✅ \"" + input + "\" is a palindrome!");
-        } else {
-            System.out.println("❌ \"" + input + "\" is NOT a palindrome.");
-        }
+        boolean result = service.checkPalindrome(input);
 
-        System.out.println("-------------------------------------");
-        System.out.println("Program execution completed.");
-        sc.close();
+        System.out.println("Is Palindrome? : " + result);
+
+        scanner.close();
     }
 }
